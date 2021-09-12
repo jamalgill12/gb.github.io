@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    background-color: #0002;
+    z-index: 1;
+    /* padding-bottom: 2%; */
+}
+header img{
+    position: absolute;
+    top: -31%;
+    right: -1%;
+}
+header span{
+    position: absolute;
+    font-size: 2.6vw;
+    font-weight: 700;
+    top: 20%;
+    left:1%;
+    font-family: 'Times New Roman', Times, serif;
+}
+aside {
+    position: absolute;
+    height: 5%;
+    font-size: 1.5vw;
+    font-weight: 700;
+    top: 11%;
+    left: 27%;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 2;
+    color: rgb(43, 39, 39);
+    /* background-color: #0009; */
+    border-radius: 7px;
+}
+aside button{
+    /* position: absolute;
+    top: 50%;
+    left:30%; */
+    /* width: 31%;
+    height: 55%;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    bottom: 7%;
+    position: absolute;
+  */
+    width: 31%;
+    height: 26%;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    bottom: 24%;
+    position: absolute;
+    left: 36%;
+    border: 1px solid;
+}
+#menu{
+    position: absolute;
+    right: 14%;
+    top: 34%;
+    font-size: 1.7vw;
+    
+}
+#menu ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 17%;
+   
+    text-align-last: left;
+    text-decoration: none;
+}
+#menu ul li {
+    padding: 1px;  
+    padding-left: 30px;
+    /* background-color: yellow; */
+}
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+    #menuItem{
+    background-color: yellow;
+}
+#truckImage{
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    position: absolute;
+}
